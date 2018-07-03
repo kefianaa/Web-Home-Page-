@@ -1,0 +1,27 @@
+
+    'const' clocks = document.getElementsByClassName("clock");
+        function updateClocks() {
+            for (let clock of clocks) {
+                let timezone = clock.dataset.timezone;
+                let time = new Date().toLocaleTimeString("en-US", {
+                    hour: '2-digit',
+                    minute:'2-digit',
+                    timeZone: timezone
+                });
+                clock.textContent = time; 
+            } 
+        }
+        
+   
+        setInterval(updateClocks,60000);
+        updateClocks();
+        
+        .clock {
+            font-family: arial;
+            border: thin solid; 
+            border-radius:9px; 
+            padding: 5px; 
+        }
+        
+        <p> Washington, D.C.: <span class="clock" data-timezone="America/New_York"></span> </p>
+            Nairobi: <span class="clock" data-timezone="Africa/Nairobi"></span> </p>
