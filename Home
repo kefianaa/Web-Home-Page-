@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head> 
+    <title> The Afropolitan Notebook </title>
+</head>
+
+<body>
+    <h2> <font  color= #990800> <b> Kefiana's Afropolitan Notebook </b> </font> </h2>
+<style>
+    body {
+        background-color: #ff9000
+            }
+     
+         
+    </style>
+    <pre>
+                                    <a href="About.html"> About </a>    <a href="Podcasts.html"> Podcasts </a>  <a href="Books.html"> Books </a>    <a href="Visual Artists.html"> Visual Artists </a>  <a href="Local Stories.html"> Local Stories, Global Lessons </a>    <a href="Tech.html"> Tech News </a>  <a href="The African Diaspora.html"> The African Diaspora </a> 
+    </pre>
+    
+<p>
+    <script type="text/javascript">
+    now = new Date();
+    localtime = now.toString();
+    utctime = now.toGMTString();
+        document.write("<strong>Washington, D.C.:</strong> " + localtime + "<br/>");
+        document.write("<strong>UTC time:</strong> " + utctime);
+    </script>
+    
+   </p>
+   
+   </body>
+   </html>
