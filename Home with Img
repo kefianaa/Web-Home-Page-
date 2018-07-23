@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head> 
+    <title> The Afropolitan Notebook </title>
+</head>
+
+<body>
+    <br>
+<br>
+<h1> <font  color= White> <b> Kefiana's Afropolitan Notebook </b> </font> </h1>
+
+ 
+
+
+<style>
+    body, html {
+	height: 100%; 
+        background-image: url("13th second.png");		
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+            }
+         
+    </style>
+
+<style>
+	a{
+	font-family: Playfair Display SC;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+	a:link, a:visited {
+	color: White;
+	}
+
+	a:hover, a:active {
+	color: Red;
+}
+	
+</style>
+
+
+
+    <pre>
+  <br> 
+<br>
+<p> <a href="About.html"> About </a> </p> <br>
+<a href="Podcasts.html"> Podcasts </a> </p> <br> 
+<a href="Books.html"> Books </a>  </p> <br>
+<a href="Visual Artists.html"> Visual Artists </a> </p> <br>
+<a href="Local Stories.html"> Local Stories, Global Lessons </a> </p> <br>  
+<a href="Tech.html"> Tech News </a>  </p> <br>
+<a href="The African Diaspora.html"> The African Diaspora </a> </p> <br>
+    </pre>
+   
+
+</p> 
+<p>
+    <script type="text/javascript">
+    now = new Date();
+    localtime = now.toString();
+    utctime = now.toGMTString();
+        document.write("<strong>Washington, D.C.:</strong> " + localtime + "<br/>");
+        document.write("<strong>UTC time:</strong> " + utctime);
+    </script>
